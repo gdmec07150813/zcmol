@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@android:anim/accelerate_interpolator">
+    <translate android:fromXDelta="0%p" android:toXDelta="100%p"
+        android:duration="300" />
+</set>
+<!--0%p是界面在屏幕上，-100%p是界面在左边（看不到）-->
+<!--android:fromXDelta 动画开始的位置，  android:toXDelta 动画结束的位置，android:duration动画的时间。-->
